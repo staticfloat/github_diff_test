@@ -4,4 +4,4 @@ N = 60
 
 with open("output.txt", "w") as f:
     for idx in range(1,N):
-        f.write("aaa "*idx + "\n")
+        f.write(" ".join(["aaa"]*idx) + "\n")
