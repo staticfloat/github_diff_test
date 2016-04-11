@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-N = 60
+N = 100
 
 with open("output.txt", "w") as f:
     for idx in range(1,N):
