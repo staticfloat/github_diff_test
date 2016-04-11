@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-N = 200
+N = 60
 
 with open("output.txt", "w") as f:
     for idx in range(1,N):
-        f.write("a"*idx + "\n")
+        f.write("aaa "*idx + "\n")
